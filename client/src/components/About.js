@@ -3,15 +3,10 @@ import React from "react";
 function About() {
   return (
     <div>
-      <h2>Why Us</h2>
+      <h1>What We Do</h1>
       <p>
-        <ul>We add Value on our properties</ul>
-        <ol>We ensure promptness in Title deed production</ol>
-        <ol>We offer excellent customer service</ol>
-        <ol>We create job opportunities</ol>
-        <ol>We have a Greening policy on our properties</ol>
-        <ol>We conduct corporate social responsibility within the society</ol>
-        <ol>We pay our taxes</ol>
+      We are a real estate development firm <br></br>that seeks to develop institutional grade real <br></br>estate having a team with extensive and deep<br></br> experience in real estate development and finance.<br></br> We work to deliver quality and aspirational real estate<br></br> developments that encourage great community living.
+
       </p>
     </div>
   );

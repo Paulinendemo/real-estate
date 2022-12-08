@@ -8,8 +8,8 @@ function Home({ properties }) {
   return (
     <>
       <Carousel>
-        {/* select three propeeties */}
-        {properties.slice(0, 3).map((property) => (
+        
+        {properties.slice(0, 5).map((property) => (
           <Carousel.Item key={property.id}>
             <img
               className="d-block w-100"
