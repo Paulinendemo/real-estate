@@ -1,5 +1,4 @@
 
-
 import React from "react";
 import { useState } from "react";
 import { Row, Col } from "react-bootstrap";
@@ -64,9 +63,9 @@ function SignUp({setUser}) {
   };
 
   return (
-    <Row>
-      <Col></Col>
-      <Col>
+    
+      
+      
         <Form id="form">
           <Form.Group className="mb-3" controlId="formBasicName">
             <Form.Label>USERNAME</Form.Label>
@@ -109,9 +108,9 @@ function SignUp({setUser}) {
             Submit
           </Button>
         </Form>
-      </Col>
-      <Col></Col>
-    </Row>
+      
+      
+
   );
 }
 

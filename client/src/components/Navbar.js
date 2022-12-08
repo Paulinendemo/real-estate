@@ -16,11 +16,11 @@ function Navbar1({ buyer, setBuyer }) {
   return (
     <Navbar collapseOnSelect expand="lg" bg="success" variant="dark">
       <Container className="nav1" style={{}}>
-        <Navbar.Brand href="#home">LOGO</Navbar.Brand>
+        <Navbar.Brand href="#home">VILLA REAL ESTATE</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="" as={Link} to={"/"}>
+            <Nav.Link className="" as={Link} to={"/home"}>
               Home
             </Nav.Link>
             <Nav.Link className="" as={Link} to={"/about"}>

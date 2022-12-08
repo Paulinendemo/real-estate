@@ -33,7 +33,7 @@ class PropertiesController < ApplicationController
 
     private
     def property_params
-        params.permit(:image_url, :name, :address, :description, :price)
+        params.permit(:id, :image_url, :name, :address, :description, :price)
     end
 
     def find_property

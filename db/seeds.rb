@@ -48,15 +48,7 @@ property_three = Property.create(
     buyer_id: Buyer.all.sample.id
 )
 
-property_four = Property.create(
-    image_url: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-    name: "Willow Creek Estanci",
-    address: "Marblehead Neck, Marblehea, MA, USA",
-    description: "Willow Creek Estancia will appeal to many different lifestyles, but it has the most perks for equestrians, who will be drawn to its 27-stall main barn, additional eight-stall barn and sand arenas.",
-    price: Faker::Number.number(digits: 6),
-    seller_id: Seller.all.sample.id,
-    buyer_id: Buyer.all.sample.id
-)
+
 
 property_five = Property.create(
     image_url: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=875&q=80",

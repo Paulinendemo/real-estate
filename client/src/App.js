@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {BrowserRouter as Routes, Route} from 'react-router-dom';
+import { Routes,Route} from 'react-router-dom';
 import Property from "./components/Property";
 import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="App">
       <Navbar buyer={buyer} setBuyer={setBuyer} />
-
+      
       {buyer ? (
         <Routes>
           <Route
