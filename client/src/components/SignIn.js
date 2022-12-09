@@ -9,8 +9,8 @@ function SignIn( {setBuyer} ) {
   const navigate = useNavigate();
   const [username, setUserName] = useState("");
   const [password, setPassword] = useState("");
-  const [errors, setErrors] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
+  const [ setErrors] = useState([]);
+  const [ setIsLoading] = useState(false);
 
   const resetForm = () => {
     setUserName("");

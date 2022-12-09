@@ -20,7 +20,7 @@ function Navbar1({ buyer, setBuyer }) {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="" as={Link} to={"/home"}>
+            <Nav.Link className="" as={Link} to={"/"}>
               Home
             </Nav.Link>
             <Nav.Link className="" as={Link} to={"/about"}>

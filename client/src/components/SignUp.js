@@ -1,7 +1,6 @@
 
 import React from "react";
 import { useState } from "react";
-import { Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { useNavigate } from "react-router-dom";
@@ -34,7 +33,6 @@ function SignUp({setUser}) {
     setPasswordConfirmation("");
   };
 
-  const form = document.getElementById("form");
 
   const handleSubmit = (event) => {
     event.preventDefault();
